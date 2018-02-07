@@ -15,5 +15,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, SnackActivity::class.java)
             startActivity(intent)
         }
+
+        btnCard.setOnClickListener{
+            val intent = Intent(this, CardActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
