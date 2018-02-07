@@ -20,5 +20,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, CardActivity::class.java)
             startActivity(intent)
         }
+
+        btnCollapsing.setOnClickListener {
+            val intent = Intent(this, CollapsingActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
